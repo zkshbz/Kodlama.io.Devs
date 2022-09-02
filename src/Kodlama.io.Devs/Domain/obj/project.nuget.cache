@@ -1,15 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "9lzcA6VU4XiQi2vM1MFQzwIPsFhDQSIQ1WFASULM8Q7DJOXJrzy6eRr6kkm7hDHTFYp6E4Yg4ECHoE7nX7sz/w==",
+  "dgSpecHash": "UtgxNrgHTIS1zkHIfGvSxUI0lbtzcZPeE+GOy1PIOzuPS5d1TMqHRH/rlN3J5UXCkqwkB1BU7So1hypONetWcw==",
   "success": true,
   "projectFilePath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://tools.abisteknoloji.com.tr/nugetrepo/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "expectedPackageFiles": [
+    "/Users/zekisahbaz/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.1/microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.caching.memory/6.0.0/microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.linq.dynamic.core/1.2.17/system.linq.dynamic.core.1.2.17.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }

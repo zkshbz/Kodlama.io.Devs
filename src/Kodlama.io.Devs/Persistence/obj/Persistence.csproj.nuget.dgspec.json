@@ -4,14 +4,14 @@
     "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj": {}
   },
   "projects": {
-    "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj": {
+    "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj",
+        "projectUniqueName": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj",
+        "projectName": "Core.Persistence",
+        "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj",
         "packagesPath": "/Users/zekisahbaz/.nuget/packages/",
-        "outputPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/obj/",
+        "outputPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zekisahbaz/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,203 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/Application.csproj",
+        "packagesPath": "/Users/zekisahbaz/.nuget/packages/",
+        "outputPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekisahbaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://tools.abisteknoloji.com.tr/nugetrepo/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj",
+        "packagesPath": "/Users/zekisahbaz/.nuget/packages/",
+        "outputPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekisahbaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://tools.abisteknoloji.com.tr/nugetrepo/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
+                "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/zekisahbaz/.nuget/packages/",
+        "outputPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zekisahbaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://tools.abisteknoloji.com.tr/nugetrepo/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/Application.csproj": {
+                "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Application/Application.csproj"
+              },
+              "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj": {
+                "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/Kodlama.io.Devs/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
