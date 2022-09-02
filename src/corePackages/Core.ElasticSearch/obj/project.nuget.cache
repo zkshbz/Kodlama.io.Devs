@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nf6QzoLXV1zYW336oFletA0OadzR+9TuHBZJfC7wf5Vm0tw/v08GtQg7wiWdeqm0wf/lntbMRse2Q4Zm1yayEA==",
+  "success": true,
+  "projectFilePath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.ElasticSearch/Core.ElasticSearch.csproj",
+  "expectedPackageFiles": [
+    "/Users/zekisahbaz/.nuget/packages/elasticsearch.net/7.17.0/elasticsearch.net.7.17.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.csharp/4.6.0/microsoft.csharp.4.6.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/nest/7.17.0/nest.7.17.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/nest.jsonnetserializer/7.17.0/nest.jsonnetserializer.7.17.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/zekisahbaz/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://tools.abisteknoloji.com.tr/nugetrepo/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
