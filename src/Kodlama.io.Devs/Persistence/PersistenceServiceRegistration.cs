@@ -17,6 +17,7 @@ public static class PersistenceServiceRegistration
                 configuration.GetConnectionString("FindYourNewWorkerConnectionString")));
 
         services.AddScoped<IProgrammingLanguageRepository, ProgrammingLanguageRepository>();
+        services.AddScoped<IProgrammingLanguageTechnologyRepository, ProgrammingLanguageTechnologyRepository>();
         
         return services;
     }
