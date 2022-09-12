@@ -1,6 +1,6 @@
 namespace Application.Features.ProgrammingLanguageTechnology.Dtos;
 
-public class ProgrammmingLanguageTechnologyListDto
+public class ProgrammingLanguageTechnologyListDto
 {
     public int Id { get; set; }
     public string Name { get; set; }
