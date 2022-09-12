@@ -23,7 +23,7 @@ public class MapperProfile : Profile
             .ForMember(c => c.ProgrammingLanguageName,
                 opts => opts.MapFrom(o => o.ProgrammingLanguage.Name))
             .ReverseMap();
-        CreateMap<Domain.Entities.ProgrammingLanguageTechnology, ProgrammmingLanguageTechnologyListDto>()
+        CreateMap<Domain.Entities.ProgrammingLanguageTechnology, ProgrammingLanguageTechnologyListDto>()
             .ForMember(c => c.ProgrammingLanguageName,
                 opts => opts.MapFrom(o => o.ProgrammingLanguage.Name))
             .ReverseMap();
