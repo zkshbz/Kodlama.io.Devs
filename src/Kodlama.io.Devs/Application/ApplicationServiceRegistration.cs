@@ -1,6 +1,7 @@
 using System.Reflection;
 using Application.Features.ProgrammingLanguage.Rules;
 using Application.Features.ProgrammingLanguageTechnology.Rules;
+using Application.Features.User.Rules;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
 using MediatR;
@@ -17,6 +18,7 @@ public static class ApplicationServiceRegistration
 
         services.AddScoped<ProgrammingLanguageBusinessRules>();
         services.AddScoped<ProgrammingLanguageTechnologyBusinessRules>();
+        services.AddScoped<UserBusinessRules>();
 
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         
