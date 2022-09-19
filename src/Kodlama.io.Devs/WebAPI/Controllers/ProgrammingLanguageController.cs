@@ -3,6 +3,7 @@ using Application.Features.ProgrammingLanguage.Commands.DeleteProgrammingLanguag
 using Application.Features.ProgrammingLanguage.Commands.UpdateProgrammingLanguage;
 using Application.Features.ProgrammingLanguage.Queries.GetByIdProgrammingLanguage;
 using Application.Features.ProgrammingLanguage.Queries.GetListProgrammingLanguage;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
@@ -18,7 +19,7 @@ public class ProgrammingLanguageController : BaseController
         var result = await Mediator.Send(createProgrammingLanguageCommand);
         return Created("", result);
     }
-
+    
     [HttpGet]
     public async Task<IActionResult> GetList(
         [FromQuery] GetListProgrammingLanguageQuery getListProgrammingLanguageQuery)

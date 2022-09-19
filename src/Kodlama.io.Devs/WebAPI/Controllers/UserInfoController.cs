@@ -3,15 +3,17 @@ using Application.Features.UserInfo.Commands.CreateUserInfoGitHubLink;
 using Application.Features.UserInfo.Commands.DeleteUserInfoGitHubLink;
 using Application.Features.UserInfo.Commands.UpdateUserInfoGitHubLink;
 using Application.Features.UserInfo.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class UserInfo : BaseController
+public class UserInfoController : BaseController
 {
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> Add([FromBody] CreateUserInfoGitHubLinkCommand createUserInfoGitHubLinkCommand)
     {
         var result = await Mediator.Send(createUserInfoGitHubLinkCommand);
