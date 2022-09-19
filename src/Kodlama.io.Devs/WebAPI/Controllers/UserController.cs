@@ -1,5 +1,6 @@
 using System.Xml.XPath;
 using Application.Features.User.Commands.CreateUser;
+using Application.Features.User.Queries.UserLoginByJWT;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
@@ -13,5 +14,12 @@ public class UserController : BaseController
     {
         var result = await Mediator.Send(createUserCommand);
         return Created("",result);
+    }
+    
+    [HttpGet("{Email}/{Password}")]
+    public async Task<IActionResult> SignIn([FromRoute] UserLoginByJWTQuery userLoginByJwtQuery)
+    {
+        var result = await Mediator.Send(userLoginByJwtQuery);
+        return Ok(result);
     }
 }

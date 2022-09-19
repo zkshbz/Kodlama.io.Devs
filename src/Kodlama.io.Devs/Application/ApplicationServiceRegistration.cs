@@ -3,6 +3,7 @@ using Application.Features.ProgrammingLanguage.Rules;
 using Application.Features.ProgrammingLanguageTechnology.Rules;
 using Application.Features.User.Rules;
 using Core.Application.Pipelines.Validation;
+using Core.Security.JWT;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +20,8 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ProgrammingLanguageBusinessRules>();
         services.AddScoped<ProgrammingLanguageTechnologyBusinessRules>();
         services.AddScoped<UserBusinessRules>();
+        
+        services.AddScoped<ITokenHelper, JwtHelper>();
 
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         

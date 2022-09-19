@@ -22,8 +22,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\OperationClaim\Models" />
+    <Folder Include="Features\OperationClaim\Queries" />
+    <Folder Include="Features\OperationClaim\Rules" />
+    <Folder Include="Features\UserOperationClaim\Models" />
+    <Folder Include="Features\UserOperationClaim\Queries" />
+    <Folder Include="Features\UserOperationClaim\Roles" />
     <Folder Include="Features\User\Models" />
-    <Folder Include="Features\User\Queries" />
   </ItemGroup>
 
 </Project>
