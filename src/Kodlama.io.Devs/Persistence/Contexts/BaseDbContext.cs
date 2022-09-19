@@ -12,6 +12,7 @@ public class BaseDbContext : DbContext
     
     public DbSet<ProgrammingLanguage> ProgrammingLanguages { get; set; }
     public DbSet<ProgrammingLanguageTechnology> ProgrammingLanguageTechnologies { get; set; }
+    public DbSet<UserInfo> UserInfos { get; set; }
     #endregion
     
     #region ctor
@@ -85,6 +86,14 @@ public class BaseDbContext : DbContext
             b.Property(p => p.CreatedByIp).HasColumnName("CreatedByIp");
             b.Property(p => p.ReplacedByToken).HasColumnName("ReplacedByToken");
             b.Property(p => p.RevokedByIp).HasColumnName("RevokedByIp");
+            b.HasOne(p => p.User);
+        });
+
+        modelBuilder.Entity<UserInfo>(b =>
+        {
+            b.ToTable("UserInfos").HasKey(pk => pk.Id);
+            b.Property(p => p.UserId).HasColumnName("UserId");
+            b.Property(p => p.GitHubLink).HasColumnName("GitHubLink");
             b.HasOne(p => p.User);
         });
     }

@@ -2,6 +2,7 @@ using System.Reflection;
 using Application.Features.ProgrammingLanguage.Rules;
 using Application.Features.ProgrammingLanguageTechnology.Rules;
 using Application.Features.User.Rules;
+using Application.Features.UserInfo.Rules;
 using Core.Application.Pipelines.Validation;
 using Core.Security.JWT;
 using FluentValidation;
@@ -20,6 +21,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ProgrammingLanguageBusinessRules>();
         services.AddScoped<ProgrammingLanguageTechnologyBusinessRules>();
         services.AddScoped<UserBusinessRules>();
+        services.AddScoped<UserInfoBusinessRules>();
         
         services.AddScoped<ITokenHelper, JwtHelper>();
 

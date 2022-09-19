@@ -25,6 +25,8 @@
     <Folder Include="Features\OperationClaim\Models" />
     <Folder Include="Features\OperationClaim\Queries" />
     <Folder Include="Features\OperationClaim\Rules" />
+    <Folder Include="Features\UserInfo\Models" />
+    <Folder Include="Features\UserInfo\Queries" />
     <Folder Include="Features\UserOperationClaim\Models" />
     <Folder Include="Features\UserOperationClaim\Queries" />
     <Folder Include="Features\UserOperationClaim\Roles" />

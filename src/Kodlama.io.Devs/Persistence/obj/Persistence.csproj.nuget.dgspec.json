@@ -422,6 +422,9 @@
             "projectReferences": {
               "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj": {
                 "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Persistence/Core.Persistence.csproj"
+              },
+              "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Security/Core.Security.csproj": {
+                "projectPath": "/Users/zekisahbaz/Desktop/Codes/Github/Kodlama.io.Devs/src/corePackages/Core.Security/Core.Security.csproj"
               }
             }
           }
